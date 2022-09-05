@@ -17,6 +17,5 @@ var finalValueAfterOperations = function (operations) {
             return undefined;
         }
     }
-    console.log(x)
     return x;
 };
