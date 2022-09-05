@@ -11,10 +11,8 @@ var finalValueAfterOperations = function (operations) {
             x--;
         } else if (operations[i] === "++X") {
             x++;
-        } else if (operations[i] === "X++") {
+        } else  {
             x++;
-        } else {
-            return undefined;
         }
     }
     return x;
